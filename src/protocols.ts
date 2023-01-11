@@ -3,3 +3,8 @@ export type SignUpBody = {
   password: string,
   email: string
 }
+
+export type SignInBody = {
+  email: string
+  password: string,
+}
